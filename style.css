@@ -52,3 +52,11 @@ body {
   display: flex;
   align-items: center;
 }
+.car img {
+  transition: transform 0.3s ease;
+}
+
+.car:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+}
